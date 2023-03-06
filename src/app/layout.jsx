@@ -1,12 +1,16 @@
 import "./globals.css";
 
-import Head from "./head";
+import Header from "../components/Header";
+import head from "./head";
 
 export default function RootLayout({ children }) {
 	return (
 		<html lang="pt-BR">
-			<Head />
-			<body>{children}</body>
+			<head />
+			<body>
+				<Header />
+				{children}
+			</body>
 		</html>
 	);
 }

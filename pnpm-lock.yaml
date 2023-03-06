@@ -4,18 +4,22 @@ specifiers:
   autoprefixer: ^10.4.13
   eslint: 8.35.0
   eslint-config-next: 13.2.3
+  icons: ^1.0.0
   next: 13.2.3
   postcss: ^8.4.21
   react: 18.2.0
   react-dom: 18.2.0
+  react-icons: ^4.8.0
   tailwindcss: ^3.2.7
 
 dependencies:
   eslint: 8.35.0
   eslint-config-next: 13.2.3_eslint@8.35.0
+  icons: 1.0.0
   next: 13.2.3_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-icons: 4.8.0_react@18.2.0
 
 devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.21
@@ -1318,6 +1322,11 @@ packages:
     dependencies:
       function-bind: 1.1.1
 
+  /icons/1.0.0:
+    resolution: {integrity: sha512-7POum3AHKovjEEXg4ITL2opTzGjnN2UnUIhv5LsUX+SjKBsFMjRyANShrCubt0KQdNdcX2wAym+JXOt6LceuYA==}
+    deprecated: Package no longer supported. Contact support@npmjs.com for more info.
+    dev: false
+
   /ignore/5.2.4:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
     engines: {node: '>= 4'}
@@ -1977,6 +1986,14 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-icons/4.8.0_react@18.2.0:
+    resolution: {integrity: sha512-N6+kOLcihDiAnj5Czu637waJqSnwlMNROzVZMhfX68V/9bu9qHaMIJC4UdozWoOk57gahFCNHwVvWzm0MTzRjg==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-is/16.13.1:
