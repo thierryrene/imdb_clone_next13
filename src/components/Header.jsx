@@ -6,7 +6,7 @@ import MenuItem from "./MenuItem";
 
 export default function Header() {
 	return (
-		<div className="flex justify-between mx-2 my-6 max-w-6xl sm:mx-auto items-center">
+		<div className="flex justify-between mx-2 py-6 max-w-6xl sm:mx-auto items-center">
 			<div className="flex ">
 				<MenuItem title="HOME" address="/" Icon={FaHome} />
 				<MenuItem title="ABOUT" address="/about" Icon={FaInfo} />
